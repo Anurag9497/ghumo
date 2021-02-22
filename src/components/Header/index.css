@@ -1,0 +1,44 @@
+.navlink {
+    font-size: 1.2rem;
+    font-weight: lighter;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: lightgray;
+}
+
+.navlink:hover {
+    color: white;
+}
+
+.navbrand {
+    font-size: 2rem !important;
+    font-family: cursive;
+    color: whitesmoke;
+}
+
+.navlink-bottom {
+    font-size: 1.2rem;
+    font-weight: lighter;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+
+.navlink-bottom:hover {
+    border-color: honeydew;
+    border-bottom: none;
+    background-color: honeydew;
+}
+
+.navlink-bottom:active {
+    border-color: honeydew;
+    border-bottom: none;
+    background-color: honeydew;
+}
+
+#navbar-upper {
+    background-color:blue;
+}
+
+#mybar-lower
+{
+    background-color:white;
+}
