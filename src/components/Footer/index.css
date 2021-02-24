@@ -1,0 +1,12 @@
+.footer {
+    color: white;
+}
+
+#logo {
+    font-size: 2rem;
+    font-family: cursive;
+}
+
+.footlink {
+    text-decoration: none !important;
+}

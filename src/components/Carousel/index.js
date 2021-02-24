@@ -9,7 +9,7 @@ function SlideShow() {
         fetch("https://jsonplaceholder.typicode.com/photos")
         .then(response => response.json())
         .then(data => {
-            console.log(data);
+            // console.log(data);
             setImages(() => data.slice(0,10));
         })
     },[]);
