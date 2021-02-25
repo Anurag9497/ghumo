@@ -1,0 +1,63 @@
+#login-div {
+    width: 40%;
+    margin: auto;
+    margin-top: 7em;
+    margin-bottom: 10em;
+    border: 2px solid whitesmoke;
+    border-radius: 3px;
+    padding-left: 13em;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    background-image: linear-gradient(to bottom right, #1F85DE, #00bfff);
+    z-index: 20;
+    box-shadow: 10px 10px 25px;
+    cursor: pointer;
+    position: fixed;
+    top: 7em;
+    left: 28em;
+}
+
+#login-div:hover {
+    background-image: linear-gradient(to bottom right, #00bfff, #1F85DE);
+}
+
+#login-form {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1rem;
+}
+
+#forgot {
+    font-size: 1rem;
+    text-decoration: none;
+    color: white;
+}
+
+#login-details {
+    width: 225px;
+    height: 40px;
+    border: 1px solid red;
+    border-radius: 20px;
+    color: red;
+    background-color: white;
+}
+
+#login-details:hover {
+    border: 1px solid green;
+    color: green;
+}
+
+#username {
+    border: 1px solid royalblue;
+    border-radius: 2px;
+}
+
+#password {
+    border: 1px solid royalblue;
+    border-radius: 2px;
+}
+
+#cross {
+    position: absolute;
+    top: -1.5em;
+    right: -1.5em;
+}

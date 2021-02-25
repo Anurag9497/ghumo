@@ -1,11 +1,19 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './index.css';
 import {Container,Row, Navbar, Nav, Button, FormControl, Form, Image} from 'react-bootstrap';
 import {NavLink} from 'react-router-dom';
+import Login from '../Login';
 
 const Header=()=> {
+    const [isLogin, setIsLogin] = useState({display: "none"});
+
+    const handleLogin = () => {
+        setIsLogin({display: "block"});
+    };
+
     return (
         <>
+            <Login isLogin={isLogin} setIsLogin={setIsLogin}/>
             <Navbar collapseOnSelect expand="lg" id="navbar-upper" fixed="top">
                 <Navbar.Brand  className="navbrand">GHUMO</Navbar.Brand>
                 <Navbar.Toggle/>
@@ -14,7 +22,7 @@ const Header=()=> {
                         <NavLink to="/" className="nav-link">Home</NavLink>
                         <NavLink to="/about" className="nav-link">About</NavLink>
                         <NavLink to="/contact" className="nav-link">Contact Us</NavLink>
-                        <NavLink to="/login" className="nav-link">Login</NavLink>
+                        <Nav.Link href="#login" className="nav-link" onClick={handleLogin}>Login</Nav.Link>
                     </Nav>
                     <NavLink to="/account">
                         <Button variant="light" className="mt-2 mb-2 mr-auto">Create Account</Button>

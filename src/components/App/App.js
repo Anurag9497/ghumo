@@ -20,9 +20,6 @@ function App() {
               <Route exact path="/contact">
                 <ContactUs />
               </Route>
-              <Route exact path="/login">
-                Coming Soon...
-              </Route>
               <Route exact path="/account">
                 Coming Soon...
               </Route>
