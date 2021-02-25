@@ -1,0 +1,96 @@
+.contact {
+    background-image: linear-gradient(to bottom right, #009b77, green);
+    font-size: 3rem;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: whitesmoke;
+}
+
+table, th, td {
+    border: 2px solid #dddddd;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1rem;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+table td {
+    white-space: pre-line;
+}
+
+#querytitle {
+    text-align: center;
+    font-family: cursive;
+    color: royalblue;
+    font-size: 1.3rem;
+    margin-top: 5em;
+}
+
+#query {
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid royalblue;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 5em;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    padding-left: 3em;
+    background-color: #00ffff;
+}
+
+#name {
+    margin-left: 11.1em;
+    border-radius: 2px;
+    border: 1px solid royalblue;
+}
+
+#email {
+    margin-left: 10.8em;
+    border-radius: 2px;
+    border: 1px solid royalblue;
+}
+
+#phone {
+    margin-left: 7.5em;
+    border-radius: 2px;
+    border: 1px solid royalblue;
+}
+
+#person {
+    margin-left: 5em;
+    border-radius: 2px;
+    border: 1px solid royalblue;
+}
+
+#place {
+    margin-left: 0.6em;
+    border-radius: 2px;
+    border: 1px solid royalblue;
+}
+
+#amount {
+    margin-left: 5em;
+    border-radius: 2px;
+    border: 1px solid royalblue;
+}
+
+#details {
+    width: 603px;
+    height: 100px;
+    border-radius: 2px;
+    border: 1px solid royalblue;
+}
+
+#submit {
+    border: 1px solid red;
+    color: red;
+    background-color: white;
+    border-radius: 2px;
+}
+
+#submit:hover {
+    border: 1px solid green;
+    color: green;
+}

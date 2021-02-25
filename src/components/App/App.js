@@ -3,6 +3,7 @@ import './App.css';
 import Header from '../Header';
 import SlideShow from '../Carousel';
 import Footer from '../Footer';
+import ContactUs from '../ContactUs';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 function App() {
@@ -17,7 +18,7 @@ function App() {
                 Coming Soon...
               </Route>
               <Route exact path="/contact">
-                Coming Soon...
+                <ContactUs />
               </Route>
               <Route exact path="/login">
                 Coming Soon...
