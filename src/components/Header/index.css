@@ -1,6 +1,7 @@
 .nav-link {
     font-size: 1.2rem;
     color: lightgray !important;
+    text-align: center;
 }
 
 .nav-link:hover {
@@ -35,7 +36,6 @@
 
 #navbar-upper {
     background-color:  #009B77;
-    z-index: 10;
 }
 
 #mybar-lower
@@ -47,3 +47,7 @@
     border-radius: 0;
     border-left: none;
 }
+
+/* @media screen and (max-width: 991px) {
+    .navbrand {text-align: center !important;}
+} */

@@ -18,16 +18,16 @@ const Header=()=> {
                 <Navbar.Brand  className="navbrand">GHUMO</Navbar.Brand>
                 <Navbar.Toggle/>
                 <Navbar.Collapse>
-                    <Nav className="ml-5">
+                    <Nav className="ml-2">
                         <NavLink to="/" className="nav-link">Home</NavLink>
                         <NavLink to="/about" className="nav-link">About</NavLink>
                         <NavLink to="/contact" className="nav-link">Contact Us</NavLink>
                         <Nav.Link href="#login" className="nav-link" onClick={handleLogin}>Login</Nav.Link>
                     </Nav>
-                    <NavLink to="/account">
-                        <Button variant="light" className="mt-2 mb-2 mr-auto">Create Account</Button>
+                    <NavLink to="/account" className="d-flex justify-content-center ml-2">
+                        <Button variant="light" className="mt-2 mb-2">Create Account</Button>
                     </NavLink>
-                    <Form className="mt-2 mb-2 ml-auto mr-4" inline>
+                    <Form className=" d-flex  justify-content-center mt-2 mb-2 ml-auto" inline>
                         <FormControl style={{borderRadius: "0", borderRight: "none"}} placeholder="Search..."/>
                         <Button id="search" variant="success">
                             <Image src="https://img.icons8.com/ios/20/000000/search--v1.png"/>
