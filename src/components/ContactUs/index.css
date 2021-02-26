@@ -18,7 +18,7 @@ table, th, td {
 table td {
     white-space: pre-line;
 }
-
+ 
 #querytitle {
     text-align: center;
     font-family: cursive;
@@ -38,47 +38,53 @@ table td {
     padding-bottom: 2em;
     padding-left: 3em;
     background-color: #00ffff;
+    font-size: 1rem;
 }
 
 #name {
-    margin-left: 11.1em;
+    width: 80%;
+    height: 80%;
     border-radius: 2px;
     border: 1px solid royalblue;
 }
 
 #email {
-    margin-left: 10.8em;
+    width: 80%;
+    height: 80%;
     border-radius: 2px;
     border: 1px solid royalblue;
 }
 
 #phone {
-    margin-left: 7.5em;
     border-radius: 2px;
+    width: 80%;
+    height: 80%;
     border: 1px solid royalblue;
 }
 
 #person {
-    margin-left: 5em;
+    width: 80%;
+    height: 80%;
     border-radius: 2px;
     border: 1px solid royalblue;
 }
 
 #place {
-    margin-left: 0.6em;
+    width: 80%;
+    height: 80%;
     border-radius: 2px;
     border: 1px solid royalblue;
 }
 
 #amount {
-    margin-left: 5em;
+    width: 80%;
+    height: 80%;
     border-radius: 2px;
     border: 1px solid royalblue;
 }
 
 #details {
-    width: 603px;
-    height: 100px;
+    width: 80%;
     border-radius: 2px;
     border: 1px solid royalblue;
 }
