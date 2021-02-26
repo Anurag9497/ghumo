@@ -6,11 +6,11 @@ import {Link} from 'react-router-dom';
 function Footer() {
     return (
         <Container className=" bg-dark footer" fluid>
-            <Row className="justify-content-center pt-3" id="logo">
+            <Row className="justify-content-center pt-3 text-center" id="logo">
                 GHUMO
             </Row>
-            <Row className="justify-content-center mt-1">
-                Copyright &copy; 2021 GHUMO, All Rights Reserved.
+            <Row className="justify-content-center mt-1 text-center">
+                Copyright &copy; 2021 GHUMO. All Rights Reserved.
             </Row>
             <Row className="justify-content-center flex-nowrap mt-1 pb-3">
                 <Link to="/policy" className="footlink">Privacy Policy</Link>
