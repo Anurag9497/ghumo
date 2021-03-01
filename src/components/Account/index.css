@@ -1,0 +1,84 @@
+.create-account {
+    width: 60%;
+    height: 60%;
+    margin: auto 4.5em;
+    font-size: 1.2rem;
+    font-family: monospace;
+    font-weight: 700;
+    padding-left: 3em;
+    padding-bottom: 3em;
+    border-radius: 3px;
+    box-shadow: 10px 10px 25px;
+    background-image: url('../../images/account-form.jpg');
+    background-size: cover;
+    cursor: pointer;
+    z-index: 15;
+    position: fixed;
+    top: 25%;
+    left: 15%;
+    overflow: auto;
+}
+
+#account-first-name {
+    width: 50%;
+    border-radius: 2px;
+    border: 1px solid royalblue;
+}
+
+#account-last-name {
+    width: 50%;
+    border-radius: 2px;
+    border: 1px solid royalblue;
+}
+
+#dob {
+    width: 50%;
+    border-radius: 2px;
+    border: 1px solid royalblue;
+}
+
+#account-phone {
+    width: 50%;
+    border-radius: 2px;
+    border: 1px solid royalblue;
+}
+
+#gender {
+    width: 50%;
+    border-radius: 2px;
+    border: 1px solid royalblue;
+}
+
+#account-address {
+    width: 50%;
+    border-radius: 2px;
+    border: 1px solid royalblue;
+}
+
+#account-email {
+    width: 50%;
+    border-radius: 2px;
+    border: 1px solid royalblue;
+}
+
+#account-password {
+    width: 50%;
+    border-radius: 2px;
+    border: 1px solid royalblue;
+}
+
+#account-submit {
+    border-radius: 3px;
+    border: 2px solid red;
+    color: red;
+    background-color: white;
+}
+
+#account-submit:hover {
+    border: 2px solid green;
+    color: green;
+}
+
+#account-cross {
+    float: right;
+}

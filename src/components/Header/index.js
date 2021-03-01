@@ -3,16 +3,23 @@ import './index.css';
 import {Container,Row, Navbar, Nav, Button, FormControl, Form, Image} from 'react-bootstrap';
 import {NavLink} from 'react-router-dom';
 import Login from '../Login';
+import Account from '../Account';
 
 const Header=()=> {
     const [isLogin, setIsLogin] = useState({display: "none"});
+    const [isSignUp, setIsSignUp] = useState({display: "none"});
 
     const handleLogin = () => {
         setIsLogin({display: "block"});
     };
 
+    const handleSignUp = () => {
+        setIsSignUp({display: "block"})
+    };
+
     return (
         <>
+            <Account isSignUp={isSignUp} setIsSignUp={setIsSignUp}/>
             <Login isLogin={isLogin} setIsLogin={setIsLogin}/>
             <Navbar collapseOnSelect expand="lg" id="navbar-upper" fixed="top">
                 <Navbar.Brand  className="navbrand">GHUMO</Navbar.Brand>
@@ -22,11 +29,11 @@ const Header=()=> {
                         <NavLink to="/" className="nav-link">Home</NavLink>
                         <NavLink to="/about" className="nav-link">About</NavLink>
                         <NavLink to="/contact" className="nav-link">Contact Us</NavLink>
-                        <Nav.Link href="#login" className="nav-link" onClick={handleLogin}>Login</Nav.Link>
+                        <Nav.Link className="nav-link" onClick={handleLogin}>Login</Nav.Link>
                     </Nav>
-                    <NavLink to="/account" className="d-flex justify-content-center ml-2">
-                        <Button variant="light" className="mt-2 mb-2">Create Account</Button>
-                    </NavLink>
+                    <Nav.Link className="d-flex justify-content-center ml-2 text-decoration-none">
+                        <Button variant="light" className="mt-2 mb-2" onClick={handleSignUp}>Create Account</Button>
+                    </Nav.Link>
                     <Form className=" d-flex  justify-content-center mt-2 mb-2 ml-auto" inline>
                         <FormControl style={{borderRadius: "0", borderRight: "none"}} placeholder="Search..."/>
                         <Button id="search" variant="success">
