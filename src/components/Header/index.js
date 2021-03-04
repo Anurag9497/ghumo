@@ -57,10 +57,6 @@ const Header=()=> {
                         <Image src="https://img.icons8.com/clouds/50/000000/train.png"/>
                         Trains
                     </NavLink>
-                    <NavLink to="/buses" className="navlink-bottom">
-                        <Image src="https://img.icons8.com/clouds/50/000000/bus.png"/>
-                        Buses
-                    </NavLink>
                     <NavLink to="/explore" className="navlink-bottom">
                         <Image src="https://img.icons8.com/clouds/50/000000/globe.png"/>
                         Explore
