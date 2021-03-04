@@ -1,0 +1,38 @@
+.stays {
+    height: 82vh;
+    font-size: 1rem;
+    margin: 5em 1em;
+    font-family:'Times New Roman', Times, serif;
+}
+
+#stays-place, #stays-checkin, #stays-checkout, #stays-rooms {
+    width: 100%;
+    height: 10%;
+    padding: 2em;
+    border: 1px solid magenta;
+    border-radius: 3px;
+    border-right: none;
+}
+
+#stays-rooms {
+    border-right: 1px solid magenta;
+}
+
+#stays-submit {
+    border: 1px solid magenta;
+    color: magenta;
+    border-radius: 3px;
+    background-color: white;
+}
+
+#stays-submit:hover {
+    color: royalblue;
+    border-color: royalblue;
+    background-color: whitesmoke;
+}
+
+@media (max-width: 767px) {
+    #stays-place, #stays-checkin, #stays-checkout {
+        border-right: 1px solid magenta;
+    }
+}

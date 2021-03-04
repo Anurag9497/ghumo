@@ -1,11 +1,13 @@
 import React from 'react';
 import './App.css';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Header from '../Header';
 import SlideShow from '../Carousel';
 import Footer from '../Footer';
 import ContactUs from '../ContactUs';
 import About from '../About';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import Train from '../Train';
+import Stays from '../Stays';
 
 function App() {
   return (
@@ -22,13 +24,13 @@ function App() {
                 <ContactUs />
               </Route>
               <Route exact path="/stays">
-                Coming Soon...
+                <Stays />
               </Route>
               <Route exact path="/flights">
                 Coming Soon...
               </Route>
               <Route exact path="/trains">
-                Coming Soon...
+                <Train />
               </Route>
               <Route exact path="/buses">
                 Coming Soon...
