@@ -33,9 +33,6 @@ function App() {
               <Route exact path="/trains">
                 <Train />
               </Route>
-              <Route exact path="/buses">
-                Coming Soon...
-              </Route>
               <Route exact path="/explore">
                 Coming Soon...
               </Route>
