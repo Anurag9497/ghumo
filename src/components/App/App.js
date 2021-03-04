@@ -8,6 +8,7 @@ import ContactUs from '../ContactUs';
 import About from '../About';
 import Train from '../Train';
 import Stays from '../Stays';
+import Flights from '../Flights';
 
 function App() {
   return (
@@ -27,7 +28,7 @@ function App() {
                 <Stays />
               </Route>
               <Route exact path="/flights">
-                Coming Soon...
+                <Flights />
               </Route>
               <Route exact path="/trains">
                 <Train />
