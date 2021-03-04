@@ -35,7 +35,7 @@ const Header=()=> {
                         <Button variant="light" className="mt-2 mb-2" onClick={handleSignUp}>Create Account</Button>
                     </Nav.Link>
                     <Form className=" d-flex  justify-content-center mt-2 mb-2 ml-auto" inline>
-                        <FormControl style={{borderRadius: "0", borderRight: "none"}} placeholder="Search..."/>
+                        <FormControl style={{borderRadius: "0", border: "none"}} placeholder="Search..."/>
                         <Button id="search" variant="success">
                             <Image src="https://img.icons8.com/ios/20/000000/search--v1.png"/>
                         </Button>
@@ -52,10 +52,6 @@ const Header=()=> {
                     <NavLink to="/flights" className="navlink-bottom">
                         <Image src="https://img.icons8.com/clouds/50/000000/airport.png"/>
                         Flights
-                    </NavLink>
-                    <NavLink to="/trains" className="navlink-bottom">
-                        <Image src="https://img.icons8.com/clouds/50/000000/train.png"/>
-                        Trains
                     </NavLink>
                     <NavLink to="/explore" className="navlink-bottom">
                         <Image src="https://img.icons8.com/clouds/50/000000/globe.png"/>

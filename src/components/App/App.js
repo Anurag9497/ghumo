@@ -6,7 +6,6 @@ import SlideShow from '../Carousel';
 import Footer from '../Footer';
 import ContactUs from '../ContactUs';
 import About from '../About';
-import Train from '../Train';
 import Stays from '../Stays';
 import Flights from '../Flights';
 
@@ -29,9 +28,6 @@ function App() {
               </Route>
               <Route exact path="/flights">
                 <Flights />
-              </Route>
-              <Route exact path="/trains">
-                <Train />
               </Route>
               <Route exact path="/explore">
                 Coming Soon...
