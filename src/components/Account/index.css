@@ -1,68 +1,32 @@
-.create-account {
-    width: 60%;
-    height: 60%;
-    margin: auto 4.5em;
+.create-account-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.3);
     font-size: 1.2rem;
     font-family: monospace;
     font-weight: 700;
-    padding-left: 3em;
-    padding-bottom: 3em;
-    border-radius: 3px;
-    box-shadow: 10px 10px 25px;
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.create-account {
     background-image: url('../../images/account-form.jpg');
     background-size: cover;
+    width: 700px;
+    max-width: 80%;
+    max-height: 60%;
     cursor: pointer;
-    z-index: 15;
-    position: fixed;
-    top: 25%;
-    left: 15%;
-    overflow: auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2) ;
+    border-radius: 3px;
+    padding: 10px 30px;
+    margin: auto;
+    margin-top: 10em;
 }
 
-#account-first-name {
-    width: 50%;
-    border-radius: 2px;
-    border: 1px solid royalblue;
-}
-
-#account-last-name {
-    width: 50%;
-    border-radius: 2px;
-    border: 1px solid royalblue;
-}
-
-#dob {
-    width: 50%;
-    border-radius: 2px;
-    border: 1px solid royalblue;
-}
-
-#account-phone {
-    width: 50%;
-    border-radius: 2px;
-    border: 1px solid royalblue;
-}
-
-#gender {
-    width: 50%;
-    border-radius: 2px;
-    border: 1px solid royalblue;
-}
-
-#account-address {
-    width: 50%;
-    border-radius: 2px;
-    border: 1px solid royalblue;
-}
-
-#account-email {
-    width: 50%;
-    border-radius: 2px;
-    border: 1px solid royalblue;
-}
-
-#account-password {
-    width: 50%;
+#account-first-name, #account-last-name, #dob, #account-phone, #gender, #account-address, #account-email, #account-password {
+    width: 100%;
     border-radius: 2px;
     border: 1px solid royalblue;
 }
@@ -81,4 +45,25 @@
 
 #account-cross {
     float: right;
+    margin-right: -2em;
+    margin-top: -0.8em;
+}
+
+@media (max-height: 640px) {
+    .create-account {
+        overflow: auto;
+    }
+}
+
+@media (max-height: 420px) {
+    .create-account {
+        margin-top: 5em;
+        overflow: auto;
+    }
+}
+
+@media (max-width: 820px) {
+    .create-account {
+        overflow: auto
+    }
 }

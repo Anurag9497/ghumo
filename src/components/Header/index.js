@@ -18,9 +18,10 @@ const Header=()=> {
     };
 
     return (
-        <>
+        <div>
             <Account isSignUp={isSignUp} setIsSignUp={setIsSignUp}/>
             <Login isLogin={isLogin} setIsLogin={setIsLogin}/>
+
             <Navbar collapseOnSelect expand="lg" id="navbar-upper" fixed="top">
                 <Navbar.Brand  className="navbrand">GHUMO</Navbar.Brand>
                 <Navbar.Toggle/>
@@ -43,8 +44,8 @@ const Header=()=> {
                 </Navbar.Collapse>
             </Navbar>
             
-            <Container style={{marginTop: "5em"}} fluid>
-                <Row className="justify-content-around mt-1 flex-nowrap overflow-scroll" id="navbar-lower">
+            <Container style={{marginTop: "5.4em"}} fluid>
+                <Row className="justify-content-around flex-nowrap" id="navbar-lower">
                     <NavLink to="/stays" className="navlink-bottom">
                         <Image src="https://img.icons8.com/clouds/50/000000/4-star-hotel.png"/>
                         Stays
@@ -63,7 +64,7 @@ const Header=()=> {
                     </NavLink>
                 </Row>
             </Container>
-        </>
+        </div>
     );
 }
 

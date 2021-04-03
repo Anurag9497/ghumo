@@ -7,9 +7,9 @@ function Account(props) {
     };
     
     return (
-        <div style={props.isSignUp} className="container">
-            <form className="create-account d-flex flex-column">
-                <div className="row">
+        <div style={props.isSignUp} className="create-account-container">
+            <div className="create-account d-flex flex-column">
+                <div className="row pb-4">
                     <div className="col-md-12">
                         <img id="account-cross" src="https://img.icons8.com/offices/35/000000/multiply.png" alt="X" onClick={handleAccount}/>
                     </div>
@@ -74,7 +74,7 @@ function Account(props) {
                         <input type="email" id="account-email"/>
                     </div>
                 </div>
-                <div className="row">
+                <div className="row pb-2">
                     <div className="col-md-6">
                         <label htmlFor="account-password">Password</label>
                     </div>
@@ -82,18 +82,18 @@ function Account(props) {
                         <input type="password" id="account-password"/>
                     </div>
                 </div>
-                <div className="row">
+                <div className="row pb-2">
                     <div className="col-md-12">
                         <input type="checkbox" id="agree" value="correct-info"/>{" "}
                         <label htmlFor="agree">I hereby declare that the information provided is true and correct.</label>
                     </div>
                 </div>
-                <div className="row">
+                <div className="row pb-2">
                     <div className="col-md-12">
                         <button type="button" id="account-submit" onClick={handleAccount}>Sign Up</button>
                     </div>
                 </div>
-            </form>
+            </div>
         </div>
     );
 }

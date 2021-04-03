@@ -35,12 +35,14 @@
 }
 
 #navbar-upper {
-    background-color:  #009B77;
+    /* background-color:  #009B77; */
+    background-color: royalblue;
 }
 
-#mybar-lower
+#navbar-lower
 {
     background-color:white;
+    border-bottom: 1px solid lightgray;
 }
 
 #search {
