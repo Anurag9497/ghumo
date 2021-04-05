@@ -6,12 +6,13 @@ function SlideShow() {
     const [images, setImages] = useState([]);
 
     useEffect(() => {
-        fetch("https://jsonplaceholder.typicode.com/photos")
+        fetch("https://ghumo-backend.herokuapp.com/api/crousel")
         .then(response => response.json())
         .then(data => {
             // console.log(data);
-            setImages(() => data.slice(0,10));
+            setImages(data);
         })
+        .catch(err => console.log(err));
     },[]);
 
     return (
